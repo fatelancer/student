@@ -16,10 +16,10 @@ public class Student{  //主类一定要有主函数
         try {
             System.out.print("请输入学号：");
             sid = br.readLine();
-            System.out.print("请输入姓名：");//江河
+            System.out.print("请输入姓名：");//
             sname = br.readLine();
             System.out.print("请输入年龄：");
-            sage = Integer.parseInt(br.readLine());
+            sage = Integer.parseInt(br.readLine());//
         }
             catch (Exception var) {}
     }
